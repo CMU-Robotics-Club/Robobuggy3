@@ -19,23 +19,6 @@ ignore=CVS
 # Pickle collected data for later comparisons.
 persistent=yes
 
-# List of plugins (as comma separated values of python modules names) to load,
-# usually to register additional checkers.
-load-plugins=
-    pylint.extensions.check_elif,
-    pylint.extensions.bad_builtin,
-    pylint.extensions.docparams,
-    pylint.extensions.for_any_all,
-    pylint.extensions.set_membership,
-    pylint.extensions.code_style,
-    pylint.extensions.overlapping_exceptions,
-    pylint.extensions.typing,
-    pylint.extensions.redefined_variable_type,
-    pylint.extensions.comparison_placement,
-    pylint.extensions.broad_try_clause,
-    pylint.extensions.dict_init_mutate,
-    pylint.extensions.consider_refactoring_into_while_condition,
-
 # Use multiple processes to speed up Pylint. Specifying 0 will auto-detect the
 # number of processors available to use.
 jobs=1
