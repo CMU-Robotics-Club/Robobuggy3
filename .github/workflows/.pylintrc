@@ -14,7 +14,7 @@ ignore=CVS
 
 # Files or directories matching the regex patterns are skipped. The regex
 # matches against base names, not paths.
-ignore-patterns=^\.#
+#ignore-patterns=^\.#
 
 # Pickle collected data for later comparisons.
 persistent=yes
